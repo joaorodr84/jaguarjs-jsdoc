@@ -49,11 +49,6 @@ module.exports = function (grunt) {
             jsdoc: {
                 files: ['**/*.tmpl', '*.js'],
                 tasks: ['jsdoc']
-            },
-
-            demo: {
-                files: ['demo/sample/**/*.js'],
-                tasks: ['demo']
             }
         },
 
